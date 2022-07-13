@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color:#000000;
+    background-color: #FFFFFF;
+    line-height: 30px;
+}
+
+header{
+    background-color:lightcoral;
+    text-align: left;
+    font-size:x-large;
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+
+header h1{
+    color:white;
+
+}
+
+main{
+    padding-left: 50px; 
+    font-size: medium;
+    margin: 0 auto;
+}
+
+footer{
+    color:white;
+    background-color:lightcoral;
+    font-size:10px;
+    padding-left: 30px;
+}
+
+.img{
+    padding-top: 30px;
+    text-align:center;
+}
+
+
+
+a{
+    color:lightcoral;
+}
+
+a:hover{
+    color:crimson;
+}

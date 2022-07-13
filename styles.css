@@ -1,9 +1,17 @@
 
+.dark body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #e8eaed;
+    background-color: #202124;
+    line-height: 30px;
+}
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color:#000000;
-    background-color: #FFFFFF;
+    color: #000000;
+    background-color: #ffffff;
     line-height: 30px;
 }
 
@@ -17,8 +25,11 @@ header{
 }
 
 header h1{
-    color:white;
+    color:#ffffff;
+}
 
+.dark header h1{
+    color:#202124;
 }
 
 main{
@@ -27,11 +38,19 @@ main{
     margin: 0 auto;
 }
 
-footer{
-    color:white;
+.dark footer{
+    color:#202124;
     background-color:lightcoral;
     font-size:10px;
     padding-left: 30px;
+    margin: 0;
+}
+footer{
+    color:#ffffff;
+    background-color:lightcoral;
+    font-size:10px;
+    padding-left: 30px;
+    margin: 0;
 }
 
 .img{
@@ -46,5 +65,49 @@ a{
 }
 
 a:hover{
-    color:crimson;
+    color:#202124   ;
+    background-color: lightcoral;
+}
+
+a.dark:hover{
+    color:#ffffff;
+    background-color:lightcoral;
+}
+
+div{
+    float:right;
+    margin: 60px 30px;
+    padding:2px;
+    outline: #ffffff 3px solid;
+    color:#ffffff;
+    background:lightcoral;
+}
+
+div:hover{
+    float:right;
+    margin: 60px 30px;
+    padding: 2px;
+    outline: lightcoral 3px solid;
+    color:lightcoral;
+    background:#ffffff;
+}
+
+
+div.dark{
+    float:right;
+    margin: 60px 30px;
+    padding:2px;
+    outline: #202124 3px solid;
+    color:#202124;
+    background:lightcoral;
+}
+
+
+div.dark:hover{
+    float:right;
+    margin: 60px 30px;
+    padding: 2px;
+    outline: lightcoral 3px solid;
+    color:lightcoral;
+    background:#202124;
 }

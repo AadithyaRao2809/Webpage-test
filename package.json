@@ -2,7 +2,7 @@
   "name": "modia",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://aadithyarao2809.github.io/Webpage-test/",
+  "homepage":"https://aadithyarao2809.github.io/Webpage-test/public",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
